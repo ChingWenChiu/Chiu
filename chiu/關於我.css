@@ -185,7 +185,7 @@ footer{
     width: 100%;
 }
 
-@media screen and (max-width:580px) {
+@media screen and (max-width:400px) {
 
     section img{
         width:50%;
