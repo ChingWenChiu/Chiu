@@ -99,6 +99,11 @@ article{
     text-align: center;
 }
 
+.udemy img{
+    width:30%;
+    border-radius: 20px;
+}
+
 .paragraph{
     margin: 50px auto;
     width: 60%;
@@ -163,6 +168,10 @@ footer{
 
     article{
         height:100%;
+    }
+
+    .udemy img{
+        width:70%;
     }
 
     p{
