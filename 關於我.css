@@ -304,7 +304,7 @@ footer{
     aside{
         margin-right: 50px;
         position: relative;
-        top:750px;
+        top:800px;
     }
 
     .fa{
@@ -314,10 +314,14 @@ footer{
         top:-25px;
     }
 
+    table{
+        width:20%;
+    }
+
     tbody{
         position: relative;
         bottom: 150px;
-        width: 40%;
+        width: 20%;
     }
 
     .fa-facebook{
