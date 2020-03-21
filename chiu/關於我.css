@@ -106,7 +106,6 @@ aside{
     text-decoration: none;
     padding: 20px;
     margin-bottom: 30px;
-    display: inline-block;
     position: relative;
     bottom: 50px;
 }
@@ -136,13 +135,16 @@ article{
 }
 
 table{
-    width:40%;
     text-align: center;
     margin:0 auto;
     border:2px solid rgb(167, 107, 79);
     border-radius: 20px;
     position: relative;
     right:50px;
+}
+
+tbody{
+    width:60%;
 }
 
 tr,th,td{
@@ -188,6 +190,39 @@ footer{
     width: 100%;
 }
 
+@media screen and (max-width:800px){
+
+    section img{
+        width:40%;
+    }
+
+    .container{
+        height:1500px;
+    }
+
+    .fa{
+        padding:15px;
+        position: relative;
+        left: -10px;
+        bottom: -200px;
+    }
+
+    .fa-facebook{
+        width:43.73px;
+    }
+
+    article{
+        position: relative;
+        top:-50px;
+    }
+    
+    footer{
+        position: absolute;
+        top:1446.4px;
+    }
+
+}
+
 @media screen and (max-width:600px) {
     .header{
         text-align: center;
@@ -206,19 +241,23 @@ footer{
         width:50%;
     }
 
-    .fa{
+    br{
+        display: none;
+    }
+
+    aside{
         padding: 10px;
         position: relative;
-        right:25px;
-        top:200px;
+        top:450px;
+    }
+
+    .fa{
+        margin-right: 20px;
+
     }
 
     .fa-facebook{
-        width:33.73px;
-    }
-
-    table{
-        width:60%;
+        width:43.73px;
     }
 
     span.bar{
@@ -226,27 +265,22 @@ footer{
         left: 50px;
     }
 
-}
-
-@media screen and (max-width:500px) {
+    article{
+        position: relative;
+        top:-150px;
+    }
 
     table{
         position: relative;
-        left: 10px;
-        bottom: 100px;
+        left: 0;
+        right: 0;
+        margin: 0 25px;
     }
 
-    br{
-        display: none;
-    }
-
-    .fa{
-        position: relative;
-        top:350px;
-    }
 
 
 }
+
 
 @media screen and (max-width:400px) {
 
@@ -270,7 +304,7 @@ footer{
     aside{
         margin-right: 50px;
         position: relative;
-        top:650px;
+        top:750px;
     }
 
     .fa{
@@ -280,9 +314,10 @@ footer{
         top:-25px;
     }
 
-    table{
+    tbody{
         position: relative;
         bottom: 150px;
+        width: 40%;
     }
 
     .fa-facebook{
