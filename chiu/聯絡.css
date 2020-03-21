@@ -27,7 +27,7 @@ header img:hover{
 
 nav{
     background-color: rgb(255, 175, 175);
-    padding: 10px 0 10px 40px;
+    padding: 10px 0 10px 30px;
     position: sticky;
     top:0;
 }
@@ -130,7 +130,7 @@ footer{
     padding: 20px;
 }
 
-@media screen and (max-width:580px) {
+@media screen and (max-width:700px) {
     header img{
         width:20%;
         transition: 0.5s ease-in-out;
@@ -144,7 +144,17 @@ footer{
         width:80%;
     }
 
+    input{
+        width:80%;
+    }
 
+    textarea{
+        width: 100%;
+    }
+
+    image img{
+
+    }
 
     
 }
