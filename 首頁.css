@@ -94,13 +94,13 @@ article{
     padding: 80px 40px 30px 0;
 }
 
-.udemy{
+.sky{
     width: 100%;
     text-align: center;
 }
 
-.udemy img{
-    width:30%;
+.sky img{
+    width:40%;
     border-radius: 20px;
 }
 
@@ -114,6 +114,10 @@ p{
     line-height: 1.5em;
     color:rgb(82, 52, 53);
     font-weight:600;
+}
+
+#photo{
+    font-size: 15px;
 }
 
 #home-image img{

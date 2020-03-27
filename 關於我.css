@@ -158,6 +158,10 @@ th{
     border-right:2px solid rgb(167, 107, 79);
 }
 
+.bordertight{
+    border-right:2px solid rgb(204, 158, 137);
+}
+
 #radius-leftTop{
     border-radius: 20px 0 0 0;
 }
@@ -177,6 +181,14 @@ th{
 td{
     background-color: rgba(247, 247, 247, 0.5);
     color:rgb(128, 82, 60);
+}
+
+.bg-color{
+    background-color: rgb(255, 234, 255);
+}
+
+.line-height{
+    line-height: 1.5em;
 }
 
 footer{
