@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>靖雯的網站</title>
+    <link rel="stylesheet" href="聯絡.css">
+    <link rel="icon" href="icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="logo">
+        </header>
+
+        <nav>
+            <a href="index.html">首頁</a> &nbsp;&nbsp;
+            <a href="aboutme.html">關於我</a>&nbsp;&nbsp;
+            <a id="contact" href="聯絡.html">聯絡</a>
+        </nav>
+
+        <article>
+            <h1>聯絡表</h1>
+            <div id="form">
+                <form action="process.php">
+                    <label for="name">您的姓名:</label>
+                    <input type="text" name="name" placeholder="Your name">
+
+                    <label for="name">性別:</label>
+                    <input class="gender" type="radio" name="gender" value="male">男
+                    <input class="gender" type="radio" name="gender" value="female">女
+
+                    <label for="name">Email:</label>
+                    <input type="text" name="email">
+
+                    <label for="name">主旨:</label>
+                    <input type="text" name="subject">
+
+                    <label for="">內容:</label>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="此聯絡表純練習，無法使用唷！"></textarea>
+                    <br><br>
+                    <input class="check" type="checkbox" name="checkContent" value="check">確認以上訊息皆正確。
+
+                    <input class="submit" type="submit" name="submit" value="提交">
+
+                </form>
+            </div>
+        </article>
+
+        <div class="image">
+            <img src="1.jpg">
+            <img src="2.jpg">
+            <img src="123.jpg">
+        </div>
+
+        <footer>
+            &copy;2020 wen website &nbsp; <span class="separator">|</span> Design by Ching-Wen Chiu
+        </footer>
+    </div>
+</body>
