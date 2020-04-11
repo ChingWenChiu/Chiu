@@ -243,6 +243,10 @@ footer{
         width: 100%;
     }
 
+    #table1{
+        margin-bottom: 70px;
+    }
+
     aside{
         margin-top: 50px;
     }
