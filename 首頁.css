@@ -120,14 +120,13 @@ p{
 }
 
 footer{
-    padding: 6px 40px;
     background-color: #473e3e;
     color:rgb(255, 250, 241);
     font-size: 13px;
     font-family: 'Lucida Sans';
     margin-top: 20px;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .separator{
@@ -197,10 +196,5 @@ footer{
         width: 100%;
         margin: 0 auto;
         font-size: 15px;
-    }
-
-    footer{
-        width: 100%;
-        
     }
 }
