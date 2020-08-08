@@ -370,6 +370,11 @@ nav a:hover{
     .modal-content{
         left: 15%;
     }
+
+    .firstBlock p{
+        margin-right: 3%;
+        margin-top: 20%;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -405,6 +410,12 @@ nav a:hover{
         max-width: 320px;
         left: 7%;
         top: 25%;
+    }
+
+    .firstBlock p{
+        margin-right: 3%;
+        margin-top: 40%;
+        font-size: 40px;
     }
 }
 
