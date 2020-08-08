@@ -22,9 +22,6 @@ body{
 
 .container{
     overflow: hidden;
-    -webkit-appearance: none;  
-    -moz-appearance: none;
-    appearance: none;
 }
 
 nav{
@@ -219,6 +216,7 @@ nav a:hover{
     cursor: pointer;
     transition: 0.3s;
     height: auto;
+    width: 250px;
 }
 
 .thirdBlock img:hover{
@@ -242,10 +240,13 @@ nav a:hover{
 .modal-content{
     margin: 100px auto;
     display: block;
-    width: 80%;
-    max-width: 700px;
+    width: 100%;
     position: absolute;
     left: 25%;
+}
+
+#img01,#img02,#img03,#img04,#img05{
+    width: 700px;
 }
 
 .modal-content,{  
