@@ -5,6 +5,9 @@
 
 body{
     font-family: "simsun";
+    -webkit-appearance: none;  
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .col-1 {width: 8.33%;}
