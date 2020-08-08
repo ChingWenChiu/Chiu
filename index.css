@@ -408,13 +408,13 @@ nav a:hover{
 
     .modal-content{
         max-width: 320px;
-        left: 0%;
+        left: 5%;
         top: 25%;
     }
 
     .thirdBlock img{
         margin: 0;
-        padding: 15px;
+        padding: 10px;
     }
 
     .firstBlock p{
