@@ -217,6 +217,7 @@ nav a:hover{
     transition: 0.3s;
     height: auto;
     width: 250px;
+    height: 200px;
 }
 
 .thirdBlock img:hover{
@@ -247,6 +248,7 @@ nav a:hover{
 
 #img01,#img02,#img03,#img04,#img05{
     width: 700px;
+    height: 560px;
 }
 
 .modal-content,{  
@@ -380,6 +382,11 @@ nav a:hover{
         margin-right: 3%;
         margin-top: 20%;
     }
+
+    #img01,#img02,#img03,#img04,#img05{
+        width: 500px;
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -413,7 +420,7 @@ nav a:hover{
 
     .modal-content{
         max-width: 320px;
-        left: 5%;
+        left: 15%;
         top: 25%;
     }
 
@@ -441,6 +448,11 @@ nav a:hover{
         display: inline;
         margin-left: 0;
     } 
+
+    #img01,#img02,#img03,#img04,#img05{
+        width: 300px;
+        height: 240px;
+    }
 }
 
 
