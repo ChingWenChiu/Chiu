@@ -215,6 +215,7 @@ nav a:hover{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    height: auto;
 }
 
 .thirdBlock img:hover{
@@ -235,7 +236,7 @@ nav a:hover{
     background-color: rgba(0,0,0,0.9);
 }
 
-.modal-content {
+.modal-content{
     margin: 100px auto;
     display: block;
     width: 80%;
