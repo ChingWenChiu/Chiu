@@ -1,0 +1,423 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "simsun";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.container{
+    overflow: hidden;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    margin: 0 auto;
+    padding: 15px;
+    width: 400px;
+}
+
+nav li{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+    list-style-type: none;
+    display: inline;
+} 
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:rgb(204, 76, 76);
+}
+
+.firstBlock{
+    width: 100%;
+    height: 100vh;
+    background-image: url(2.jpg);
+    opacity: 0.6;
+    background-position:50% 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.firstBlock p{
+    float: right;
+    color:white;
+    font-size: 60px;
+    margin-right: 10%;
+    margin-top: 18%;
+    text-shadow: 2px 2px black;
+    position: relative;
+}
+
+.know{
+    height: 12%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+#know{
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 125px;
+    padding: 8px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#know:hover{
+    background-color: white;
+    color: black;
+}
+
+/* --------------------------------履歷表----------------------------- */
+
+.secondBlock{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    padding-bottom:50px ;
+}
+
+.cards{
+    width: 100%;
+    margin-bottom:30px;
+}
+
+.secondBlock img{
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.secondBlock h2{
+    width: 200px;
+    margin: 50px auto 0;
+    text-align: center;
+    background-color: rgb(255, 173, 159);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.secondBlock ul{
+    text-align: center;
+}
+
+.secondBlock li{
+    font-size: 18px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.secondBlock p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#table1,#table2,#table3{
+    float: left;
+    text-align: center;
+    flex: none;
+    width: 320px;
+}
+
+#table1{
+    margin-right: 100px;
+}
+
+#table2{
+    margin-right: 50px;
+}
+
+#table1 h3{
+    font-size: 25px;
+    width: 70px;
+    margin: 20px auto;
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+}
+
+#table1 h4{
+    font-size: 25px;
+    width: 80px;
+    margin: 20px auto;
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+}
+
+#table1 p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+/* ---------------------------third--------------------------- */
+
+.thirdBlock{
+    background-color: rgb(255, 236, 233);
+    width: 100%;
+    height: auto;
+    padding-left:50px ;
+    padding-top: 25px;
+    overflow: hidden;
+}
+
+.thirdBlock h3{
+   text-align: center;
+   font-size: 28px;
+   border-bottom: 2px solid #555;
+   padding-bottom: 10px;
+   width: 150px;
+   height: 40px;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.thirdBlock img{
+    margin: 20px;
+    flex: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.thirdBlock img:hover{
+    opacity: 0.7;
+}
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: 100px auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    position: absolute;
+    left: 25%;
+}
+
+.modal-content,{  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#image{
+    margin: 50px auto 100px;
+}
+
+.row_col{
+    width: 50%;
+    flex: none;
+}
+
+#row_col1{
+    position: relative;
+}
+
+.movie{
+    position: absolute;
+    bottom: 50%;
+    left: 30%;
+}
+
+.circle{
+    margin-bottom: 100px;
+}
+
+.thirdBlock a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #333;
+    font-weight: bold;
+    margin-top:100px ;
+}
+
+.thirdBlock a:hover{
+    color: black;
+}
+
+.fa{
+    padding: 20px;
+    text-align: center;
+    border-radius: 100%;
+    margin-right: 50px;
+}
+
+.fa-instagram {
+    background-color: rgb(187, 175, 255);
+}
+
+.fa-facebook{
+    background-color: rgb(184, 215, 255);
+    width: 61.44px;
+}
+
+/* --------------------------fourth------------------------ */
+
+.fourthBlock{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.fourthBlock h3{
+    text-align: center;
+    margin: 0px auto 50px;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(124, 74, 74);
+    padding-bottom: 10px;
+    width: 80px;
+}
+
+.fourthBlock p{
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 2;
+    width: 73%;
+}
+
+.paragraph{
+    width: 80%;
+    margin: 0 auto 75px;
+}
+
+@media screen and (max-width:1024px) {
+    .fourthBlock p{
+        font-size: 16px;
+    }
+
+    #table1{
+        margin-right: 50px;
+    }
+
+    .modal-content{
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+      left: 10%;
+}
+}
+
+@media screen and (max-width:500px) {
+    #table1,#table2,#table3{
+        margin-right: 0;
+        padding: 15px;
+    }
+
+    .movie{
+        left: 10%;
+    }
+
+    .fa{
+        margin-right: 20px;
+    }
+
+    .thirdBlock{
+        padding-left: 20px;
+    }
+
+    .paragraph{
+        width: 90%;
+    }
+
+    .modal-content{
+        max-width: 320px;
+        left: 7%;
+        top: 25%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,72 +4,304 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>靖雯的網站</title>
-    <link rel="stylesheet" href="首頁.css">
-    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>邱靖雯</title>
+
+    <style>
+
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <img src="logo.png" alt="logo">
-        </header>
 
-        <nav>
-            <a id="home" href="http://chiu1219.nctu.me/">首頁</a> &nbsp;&nbsp;
-            <a href="履歷表.html">關於我</a>&nbsp;&nbsp;
-            <a href="聯絡.html">聯絡</a>
-            <span id="icon" onclick="openNav()">&#9776; menu</span>
-        </nav>
+    <nav>
 
-        <div id="responsiveNav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="http://chiu1219.nctu.me/" style="color:white;">首頁</a>
-            <a href="履歷表.html">關於我</a>
-            <a href="聯絡.html">聯絡</a>
+        <ul>
 
-            <script>
+            <li><a href="#page1"> 我是誰？</a></li>
+            <li><a href="#page2">我做了什麼？</a></li>
+            <li><a href="#page3">有話想說...</a></li>
 
-                function openNav() {
-                    document.getElementById("responsiveNav").style.width="250px";
-                }
+        </ul>
 
-                function closeNav() {
-                    document.getElementById("responsiveNav").style.width="0";
-                }
+    </nav>
 
-            </script>
+    <div class="container firstBlock">     
+
+        <p>探索之旅 開始！</p>
+
+        <div class="know col-12">
+
+            <a href="#section2" id="know">了解更多</a>
+
         </div>
-
-        <article>
-            
-            <div class="sky">
-                <img src="udemy.jpg" alt="udemy結業證書">
-            </div>
-
-            <div class="paragraph">
-
-                <p>&nbsp;&nbsp;您好，我是國立交通大學 傳播與科技學系即將升大三的邱靖雯。「想像力是你的超能力」這句話一直被我放在心裡不曾忘卻，對我來說，想像力能讓生活變得有趣，創意也能使生活變得更方便。我是個很喜歡想點子的人，例如學校作業需要定主題時，我都會參與主題發想，或是作業該以何種形式呈現。我也是個勇於接受挑戰的人，面對一切困難時，都會想辦法盡快解決，像是平常自己在練習程式碼時，一但我碰到錯誤時，我便會自己上網查詢方法，直到我解決那個問題為止。
-                </p>
-                <br>
-                <p>&nbsp;&nbsp;父母從小便教導我，遇到想學習的事情時，便要勇於去學習新知，因此從小不論我想要學習什麼，父母都會支持著我，這也造就了我自動自發去學習的個性。在家庭中培養出的個性，讓我在學校都有著良好的表現，國小時拿過全校模範生，國中以班上第一名的成績畢業，並順利考上國立新竹女子高級中學。大學階段進入了交大傳科系，在這裡我學到了很多實際操作的技能，例如錄製新聞、綜藝節目、拍攝紀錄片以及劇情片，通過課堂實作，不僅學習到如何應對各種情況，更讓我了解到在團隊合作中，如何負責好自己的工作以及與他人相處。面對系上各式各樣的課程，我皆保持著學而不厭的心態，同學們對我的評價大多也是自律且上進，在系上目前的排名也保持在第三名。
-                </p>
-                <br>
-                <p>&nbsp;&nbsp;雖在上大學之前，我從沒接觸過網頁相關程式，直到大一下學期時，我才通過系上的進階工作坊課程，第一次認識到網頁程式。剛接觸時只是覺得有趣，便每堂課認真地聽老師的講解，但對程式有進一步認識後，我認為寫程式真的是件很神奇的事，為何一段程式能轉換成網頁上的文字，甚至還能透過程式碼對網頁進行包裝、排版，上完這堂課之後，我便下定決心要自學網頁程式，將上課所學做更進一步的鑽研。在這學期的基礎網頁設計課的專案小組裡，我也擔任了組長，並且對主題及網頁結構進行發想。我目前透過udemy網站以及w3schools學習HTML、CSS、JavaScript、JQuery以及Bootstrap，也預計將來會學習PHP、mySQL等，雖然目前學的都還是基礎，但我也期許自己能加緊腳步學習，並且學得更深入、更專業。
-                </p>
-                <br>
-                <p>&nbsp;&nbsp;我有著一顆熱愛寫網頁的心，並且我非常願意去學習，對於我來說，最重要的是如何發揮所學，並在職場上能夠幫助到公司，因此希望能透過校外實習的機會，運用自己的技能幫助公司，同時觀察自己的能力到底有多少。在網路上看到新芽網路招募實習生的資訊，願意接受挑戰、專注於細節、工作效率、團隊合作等，都非常符合我的人格特質，對於學習Git、Webpack、ES6 與現代框架，我也是非常感興趣的。希望能有機會能到新芽網路實習，讓我發揮所學為新芽網路盡自己的最大一份力，與大家一起創造出最專業的網站！
-                </p>
-
-            </div>
-        </article>
-
-        <footer>
-            &copy;2020 wen website &nbsp; <span class="separator">|</span> Design by Ching-Wen Chiu
-        </footer>
 
     </div>
 
+    <div id="section2" class="container secondBlock">
+
+        <div class="row">
+
+            <div id="table1">
+
+                <img src="3.jpg" width="100%">
+
+                <h3>姓名</h3>
+                <p>邱靖雯</p>
+
+                <h3>年齡</h3>
+                <p>20</p>
+
+                <h4>居住地</h4>
+                <p>苗栗縣</p>
+
+            </div>
+
+             <div id="table2">
+
+                    <div class="cards">
+
+                        <h2>學歷</h2>
+                        <ul>
+                            <li>國立交通大學 傳播與科技學系就學中</li>
+                            <li>國立新竹女子高級中學</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="cards">
+
+                        <h2>E-mail</h2>
+                        <p>chiu19991219@gmall.com</p>
+
+                    </div>
+
+                    <div class="cards">
+
+                        <h2>技能</h2>
+                        <p>網頁程式：Html、Css、JavaScript</p>
+                        <p>剪輯軟體：premiere</p>
+                        <p>2D類繪圖：photoshop、illustrator</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <h2>興趣</h2>
+                        <p>棒球、攝影、網頁設計、烹飪</p>
+
+                    </div>
+
+            </div>
+
+            <div id="table3">
+
+                    <div class="cards">
+
+                        <h2>工作經驗</h2>
+                        <p>Tomod's計時人員（108/9～109/1）</p>
+                        <p>2020街口支付校園大使（109/6～109/12）</p>
+
+                    </div>
+
+                    <div class="cards">
+                        <h2>參賽、活動經歷</h2>
+                        <p>第六屆臺灣青年黑客松 web組冠軍</p>
+                        <p>第9屆金Go盃歌唱大賽 初賽宣傳片-攝影 </p>
+                        <p>第9屆金Go盃歌唱大賽 初賽概念片-攝影助理 </p>
+                        <p>第9屆金Go盃歌唱大賽 影片組 </p>
+                        <p>2019～2020傳科營活動組 </p>
+                        <p>系學會總務 </p>
+                        <p>互動設計課期末報告影片-剪輯
+                            <p>影視製作課劇情片-導演</p>
+                            <p>影視製作課紀錄片-攝影</p>
+                            <p>虛擬攝影棚新聞-住宿費調漲-攝影</p>
+                            <p>虛擬攝影棚新聞-交大建築展-剪輯</p>
+                            <p>2019交大寒假種子營美宣組</p>
+                    </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="section3" class="thirdBlock">
+
+        <h3>平面類作品</h3>
+
+        <div id="image" class="row">
+
+            <img id="myImg01" src="4.jpg" alt="海灘" style="width:100%;max-width:250px">
+            <div id="myModal1" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption1"></div>
+            </div>
+
+            <img id="myImg02" src="5.jpg" alt="海" style="width:100%;max-width:250px">
+            <div id="myModal2" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img02">
+                <div id="caption2"></div>
+            </div>
+            
+            <img id="myImg03" src="6.jpg" style="width:100%;max-width:250px">
+            <div id="myModal3" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img03">
+                <div id="caption3"></div>
+            </div>
+            
+            <img id="myImg04" src="7.jpg" style="width:100%;max-width:250px">
+            <div id="myModal4" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img04">
+                <div id="caption4"></div>
+            </div>
+            
+            <img id="myImg05" src="8.jpg" style="width:100%;max-width:250px">
+            <div id="myModal5" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img05">
+    
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div id="row_col1" class="row_col floatLeft">
+
+                <h3>影音類作品</h3>
+                <a class="movie" href="https://drive.google.com/drive/u/0/folders/1cQ6rlkXS8I9BbAQJ7kEx1aGqvqtaYAPU" target="_blank">作品在這！</a>
+
+            </div>
+
+            <div id="row_col2" class="row_col">
+
+                <h3>社群類作品</h3>
+
+                <div class="circle">
+
+                    <a href="https://www.instagram.com/_cpbl_lazybow/" class="fa fa-instagram" target="_blank"></a>
+                    <a href="https://www.instagram.com/aesthque_/" class="fa fa-instagram" target="_blank"></a>
+                    <a href="https://www.instagram.com/p/B_pMVLFjGf-/" class="fa fa-instagram" target="_blank"></a>
+                    <a href="https://www.instagram.com/p/CClLqOMJp5E/" class="fa fa-instagram" target="_blank"></a>
+            
+                </div>
+
+            </div>
+           
+        </div>
+
+
+
+    </div>
+
+    <div id="page3" class="fourthBlock">
+
+        <h3>自傳</h3>
+        <div class="paragraph">
+
+            <p>&nbsp;&nbsp;「想像力是你的超能力」這句話一直被我放在心裡不曾忘卻，對我來說，想像力能讓生活變得有趣，創意也能使生活變得更方便。我是個很喜歡想點子的人，例如學校作業需要定主題時，我都會參與主題發想，或是作業該以何種形式呈現。而我的父母從小便教導我，遇到想學習的事情時，便要勇於去學習新知，因此從小不論我想要學習什麼，父母都會支持著我，這也造就了我自動自發去學習的個性。
+            </p>
+            <br>
+            <p>&nbsp;&nbsp;平時的我喜歡看電影、電視劇，因此大學選擇了交大傳科系，在這裡我學到了很多實際操作的技能，例如大一時，參加了系上的虛擬攝影棚團隊，錄製了新聞、綜藝節目，在系上必修課中，也拍攝了紀錄片以及劇情片，從前的我，只是個欣賞影片的觀眾，現在的我，也能產出自己的作品。在其他課程中，也學習到了如何使用premiere、photoshop…等軟體，面對各式各樣的課程，皆保持著學而不厭的心態，在系上目前的排名也保持在第三名。</p>
+            <br>
+            <p>&nbsp;&nbsp;雖說在學校的表現都還算能接受，但我並不想就此滿足於現況，對於我來說，最重要的是如何發揮在校所學，並在職場上能夠幫助到公司。因此希望能透過實際參與工作的機會，運用自己的技能幫助公司，同時觀察自己的能力到底有多少。看到娛樂百分百在找工讀生時，我便覺得這是份很適合我的工作，平常的我很常使用photoshop、illustrator來修圖、設計，因此很希望能夠加入娛樂百分百，讓我有機會將平日所學，實際運用在職場上！</p>
+            
+        </div>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+        
+        $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+            
+            event.preventDefault();
+
+            var hash = this.hash;
+            
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 600, function(){
+            
+                window.location.hash = hash;
+            });
+            } 
+        });
+        });
+
+        var modal1 = document.getElementById("myModal1");
+
+        var img1 = document.getElementById("myImg01");
+        var modalImg1 = document.getElementById("img01");
+        img1.onclick = function(){
+        modal1.style.display = "block";
+        modalImg1.src = this.src;
+        }
+
+        var modal2 = document.getElementById("myModal2");
+
+        var img2 = document.getElementById("myImg02");
+        var modalImg2 = document.getElementById("img02");
+        img2.onclick = function(){
+        modal2.style.display = "block";
+        modalImg2.src = this.src;
+        }
+
+        var modal3 = document.getElementById("myModal3");
+
+        var img3 = document.getElementById("myImg03");
+        var modalImg3 = document.getElementById("img03");
+        img3.onclick = function(){
+        modal3.style.display = "block";
+        modalImg3.src = this.src;
+        }
+
+        var modal4 = document.getElementById("myModal4");
+
+        var img4 = document.getElementById("myImg04");
+        var modalImg4 = document.getElementById("img04");
+        img4.onclick = function(){
+        modal4.style.display = "block";
+        modalImg4.src = this.src;
+        }
+
+        var modal5 = document.getElementById("myModal5");
+
+        var img5 = document.getElementById("myImg05");
+        var modalImg5 = document.getElementById("img05");
+        img5.onclick = function(){
+        modal5.style.display = "block";
+        modalImg5.src = this.src;
+        }
+
+        var span = document.getElementsByClassName("close");
+
+        for(i=0;i<span.length;i++) {
+            span[i].onclick = function() { 
+                this.parentElement.style.display = "none";
+            }
+        }
+
+       
+
+    </script>
+
+
 </body>
+
+
 
 </html>
