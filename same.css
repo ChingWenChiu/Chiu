@@ -1,3 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Noto Serif TC";
+    font-weight: 500;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.container{
+    overflow: hidden;
+}
+
+/* ----------------header---------------- */
+
+header{
+    margin-top: 50px;
+    width: 100%;
+}
+
+header h1{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 900;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
 
 /* ----------------navbar---------------- */
 
@@ -5,13 +49,13 @@
     margin: 20px auto;
     text-align: center;
     width: 100%;
-    background:none;
-    padding: 0;
+    background-color: #F3C1C1;
+    padding: 5px 0;
 }
 
 .navbar a{
     text-decoration: none;
-    color: #9f9f9f;
+    color: #ffffff;
 }
 
 .navbar a:hover{
@@ -19,57 +63,12 @@
 }
 
 .navbar a:not(:last-child) {
-    border-right: 1px solid #9f9f9f;
+    border-right: 1px solid #ffffff;
     padding-right: 10px;
 }
 
 .navbar a:not(:first-child){
     padding-left: 4px;
-}
-
-/* ----------------content---------------- */
-
-.content{
-    height: 400px;
-}
-
-.content_left{
-    float: left;
-    text-align: right;
-    padding-right: 30px;
-    padding-left: 30px;
-    width: 50%;
-    height: 400px;
-    position: absolute;
-}
-
-.content_left img{
-    position: relative;
-    top: 50%;
-    margin-top: -155px;
-}
-
-.content_right{
-    float: right;
-    padding-left: 50px;
-    width: 50%;
-    height: 400px;
-}
-
-.content_right_words{
-    position: absolute;
-    top: 50%;
-    margin-top: -68px;
-    line-height: 2;
-}
-
-.content_right h2{
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.content_right p{
-    width: 300px;
 }
 
 /* ------------------footer----------------- */
@@ -118,30 +117,7 @@ footer p{
 /* --------------media screen-------------- */
 
 @media screen and (max-width:768px){
-    .content{
-        height: 600px;
-    }
-
-    .content_left{
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    .content_right{
-        float: none;
-        width: 100%;
-        text-align: center;
-        position: relative;
-        bottom: -230px;
-    }
-
-    .content_right_words{
-        margin: -68px auto;
-        left: 50%;
-        margin-left: -150px;
-    }
-
+    
     /* ------------------footer----------------- */
 
     footer{

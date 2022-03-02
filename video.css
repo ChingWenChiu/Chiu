@@ -1,0 +1,30 @@
+.navbar a:nth-child(1){
+    color: #272727;
+    pointer-events: none;
+}
+
+.video{
+    margin: 50px auto;
+}
+
+.video3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.videoBox{
+    width: 326px;
+    position: relative;
+    display: inline-block;
+    flex: none;
+    margin: 0 30px 50px;
+}
+
+.videoBox span{
+    position: absolute;
+    right: -10px;
+    top: 0;
+    font-size: 14px;
+    color: #999999;
+}
