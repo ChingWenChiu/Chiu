@@ -115,6 +115,12 @@ footer p{
     margin-bottom: 10px;
 }
 
+.top{
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
 /* --------------media screen-------------- */
 
 @media screen and (max-width:768px){
@@ -137,6 +143,10 @@ footer p{
        text-align: center;
        right: 0;
     }
+
+    .top{
+        margin-right: 30px;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -152,6 +162,10 @@ footer p{
 
     .footer_middle{
         margin-left: -110px;
+    }
+
+    .top{
+        margin-right: 20px;
     }
 
 }

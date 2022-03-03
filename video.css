@@ -3,8 +3,29 @@
     pointer-events: none;
 }
 
+.choose{
+    width: 160px;
+    text-align: center;
+    margin: 25px auto;
+    border-bottom: 2px dashed #464040;
+}
+
+.choose h2,p{
+    display: inline;
+}
+
+.choose a{
+    text-decoration: none;
+    color: #F18383;
+}
+
+.choose a:hover{
+    color: #ac5353;
+}
+
 .video{
-    margin: 50px auto;
+    margin: 30px auto 0;
+    padding-top: 20px;
 }
 
 .video2,.video3{
@@ -36,4 +57,36 @@
     top: 0;
     font-size: 14px;
     color: #999999;
+}
+
+.photo{
+    padding-top: 20px;
+}
+
+.photo h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.photoBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.photos{
+    width: 400px;
+    margin: 2.5px 5px;
+}
+
+.top:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:500px){
+    .photos{
+        width: 300px;
+    }
 }
