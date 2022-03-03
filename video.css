@@ -51,6 +51,11 @@
     margin-bottom: 50px;
 }
 
+.video2 .videoBox iframe{
+    width: 560px;
+    height: 315px;
+}
+
 .videoBox span{
     position: absolute;
     right: -8px;
@@ -84,9 +89,33 @@
     cursor: pointer;
 }
 
+@media screen and (max-width:768px){
+    .video2 .videoBox{
+        width: 400px;
+        margin-bottom: 35px;
+        margin-left: 0;
+    }
+
+    .video2 .videoBox iframe{
+        width: 400px;
+        height: 225px;
+    }
+
+}
+
 
 @media screen and (max-width:500px){
     .photos{
         width: 300px;
+    }
+
+    .video2 .videoBox{
+        width: 320px;
+        margin-bottom: 35px;
+    }
+
+    .video2 .videoBox iframe{
+        width: 320px;
+        height: 180px;
     }
 }
