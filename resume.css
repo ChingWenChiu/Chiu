@@ -46,9 +46,5 @@
 .intro p{
     position: relative;
     left: 30px;
-    bottom: 100px;
-}
-
-.intro img,.intro p{
-    display: inline;
+    bottom: 120px;
 }
