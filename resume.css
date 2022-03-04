@@ -105,6 +105,10 @@
         bottom: 50px;
     }
 
+    .photo img{
+        top: 0;
+    }
+
     #line1{
         margin-top: 0;
     }
@@ -112,7 +116,6 @@
     .edu,.work,.skill{
         width: 80%;
     }
-    
 
     .edu_right_words,.work_right_words{
         left: 30px;
