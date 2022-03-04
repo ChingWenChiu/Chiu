@@ -8,8 +8,14 @@
     margin: 0 auto;
 }
 
-.article h4{
+.article a{
     font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.article a:hover{
+    color: #6d5f5f;
 }
 
 .article iframe{

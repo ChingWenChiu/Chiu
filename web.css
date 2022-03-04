@@ -18,9 +18,16 @@
     margin: 25px auto;
 }
 
-.web h4{
+.web a{
     font-size: 18px;
+    text-decoration: none;
+    color: black;
 }
+
+.web a:hover{
+    color: #6d5f5f;
+}
+
 
 .web iframe{
     border: 3px solid #6d5f5f;
