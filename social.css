@@ -25,14 +25,14 @@
     margin-left: 10px;
 }
 
-#lazy,#berets{
+#lazy,#berets,#food{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
 }
 
-.lazy,.berets{
+.lazy,.berets,.food{
     margin: 0 20px 50px;
 }
 
@@ -52,17 +52,17 @@
 
 
 @media screen and (max-width:500px){
-    .lazy{
+    .lazy,.berets,.food{
         margin: 0 0 30px;
     }
 
-    #lazy{
+    #lazy,#berets,#food{
         width: 326px;
         margin: 0 auto;
     }
 
     .social{
-        padding: 0 30px;
+        padding: 0 15px;
     }
 
     .social h2{
