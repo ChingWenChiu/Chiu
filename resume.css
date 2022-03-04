@@ -125,6 +125,10 @@
         margin: 0;
     }
 
+    .intro{
+        margin-left: 0;
+    }
+
     .reTop{
         margin-bottom: 50px;
     }
@@ -154,9 +158,5 @@
     .skill{
         margin-top: 0;
     }
-
-
-
-    
 
 }
