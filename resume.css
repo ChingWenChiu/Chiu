@@ -1,0 +1,4 @@
+.navbar a:nth-child(5){
+    color: #272727;
+    pointer-events: none;
+}

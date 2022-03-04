@@ -1,0 +1,29 @@
+.navbar a:nth-child(4){
+    color: #272727;
+    pointer-events: none;
+}
+
+#web{
+    margin-top: 25px;
+}
+
+#web p{
+    color: #F8C5C5;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.web{
+    width: 80%;
+    margin: 25px auto;
+}
+
+.web h4{
+    font-size: 18px;
+}
+
+.web iframe{
+    border: 3px solid #6d5f5f;
+    border-radius: 5px;
+    margin-top: 15px;
+}
