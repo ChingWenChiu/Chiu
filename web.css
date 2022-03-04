@@ -1,6 +1,7 @@
 .navbar a:nth-child(4){
     color: #272727;
     pointer-events: none;
+    font-weight: 900;
 }
 
 #web{

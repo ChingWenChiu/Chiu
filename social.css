@@ -6,6 +6,7 @@
 .navbar a:nth-child(2){
     color: #272727;
     pointer-events: none;
+    font-weight: 900;
 }
 
 .social{
