@@ -121,6 +121,10 @@ footer p{
     margin-right: 50px;
 }
 
+.top:hover{
+    cursor: pointer;
+}
+
 /* --------------media screen-------------- */
 
 @media screen and (max-width:768px){

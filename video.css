@@ -85,10 +85,6 @@
     margin: 2.5px 5px;
 }
 
-.top:hover{
-    cursor: pointer;
-}
-
 @media screen and (max-width:768px){
     .video2 .videoBox{
         width: 400px;
