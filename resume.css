@@ -75,6 +75,10 @@
     overflow: hidden;
 }
 
+.work_right{
+    height: 700px;
+}
+
 .edu_right p,.work_right p{
     font-size: 20px;
     font-weight: 700;
@@ -92,7 +96,7 @@
 }
 
 .work_right_words{
-    bottom: 420px;
+    bottom: 640px;
 }
 
 .skill{
