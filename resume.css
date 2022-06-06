@@ -70,13 +70,13 @@
 
 .edu_right,.work_right,.skill_right{
     float: right;
-    width: 300px;
+    width: 380px;
     height: 500px;
     overflow: hidden;
 }
 
 .work_right{
-    height: 700px;
+    height: 900px;
 }
 
 .edu_right p,.work_right p{
@@ -96,7 +96,7 @@
 }
 
 .work_right_words{
-    bottom: 640px;
+    bottom: 820px;
 }
 
 .skill{
