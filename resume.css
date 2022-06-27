@@ -167,16 +167,20 @@
         width: 90%;
     }
 
+    .work_right{
+        height: 1100px;
+    }
+
     .work_right_words{
         width: 280px;
         bottom: 980px;
     }
 
     .skill{
-        margin-top: 60px;
+        margin-top: 0px;
     }
 
     #line4{
-        height: 990px;
+        height: 1000px;
     }
 }
