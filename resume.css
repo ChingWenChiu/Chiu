@@ -141,7 +141,7 @@
     }
 
     .reDown{
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     #line1{
@@ -160,10 +160,23 @@
     .edu{
         height: 500px;
         overflow: hidden;
+        width: 90%;
+    }
+
+    .work{
+        width: 90%;
+    }
+
+    .work_right_words{
+        width: 280px;
+        bottom: 980px;
     }
 
     .skill{
-        margin-top: 0;
+        margin-top: 60px;
     }
 
+    #line4{
+        height: 990px;
+    }
 }
