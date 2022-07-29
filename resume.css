@@ -59,16 +59,16 @@
     letter-spacing: 3px;
 }
 
-.edu,.work,.skill{
+.edu,.work,.activity,.skill{
     width: 60%;
     margin: 0 auto;
 }
 
-.edu_left,.work_left,.skill_left{
+.edu_left,.work_left,.activityk_left,.skill_left{
     float: left;
 }
 
-.edu_right,.work_right,.skill_right{
+.edu_right,.work_right,.activity_right,.skill_right{
     float: right;
     width: 380px;
     height: 500px;
@@ -79,7 +79,7 @@
     height: 1000px;
 }
 
-.edu_right p,.work_right p{
+.edu_right p,.work_right p,.activity_right p{
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -89,7 +89,7 @@
     color: #A0A0A0;
 }
 
-.edu_right_words,.work_right_words{
+.edu_right_words,.work_right_words,.activity_right_words{
     position: relative;
     left: 50px;
     bottom: 325px;
@@ -99,8 +99,12 @@
     bottom: 970px;
 }
 
-.skill{
-    margin-top: 50px;
+.activity_right_words{
+    bottom: 420px;
+}
+
+.activity{
+    margin-top: 125px;
 }
 
 @media screen and (max-width:768px){
